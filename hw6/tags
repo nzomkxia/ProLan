@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Board	hw6provided.rb	/^class Board$/;"	c
+MyBoard	hw6assignment.rb	/^class MyBoard < Board$/;"	c
+MyPiece	hw6assignment.rb	/^class MyPiece < Piece$/;"	c
+MyTetris	hw6assignment.rb	/^class MyTetris < Tetris$/;"	c
+Piece	hw6provided.rb	/^class Piece$/;"	c
+Tetris	hw6provided.rb	/^class Tetris$/;"	c	class:Board
+TetrisButton	hw6graphics.rb	/^class TetrisButton$/;"	c
+TetrisCanvas	hw6graphics.rb	/^class TetrisCanvas$/;"	c
+TetrisLabel	hw6graphics.rb	/^class TetrisLabel$/;"	c
+TetrisRect	hw6graphics.rb	/^class TetrisRect$/;"	c
+TetrisRoot	hw6graphics.rb	/^class TetrisRoot$/;"	c
+TetrisTimer	hw6graphics.rb	/^class TetrisTimer$/;"	c
+bind	hw6graphics.rb	/^  def bind(char, callback)$/;"	f	class:TetrisRoot
+block_size	hw6provided.rb	/^  def block_size$/;"	f	class:Board
+buttons	hw6provided.rb	/^  def buttons$/;"	f	class:Board.Tetris
+cheat	hw6assignment.rb	/^  def cheat$/;"	f	class:MyBoard
+cheat_piece	hw6assignment.rb	/^  def self.cheat_piece (board)$/;"	F	class:MyPiece
+color	hw6provided.rb	/^  def color$/;"	f	class:Piece
+current_rotation	hw6provided.rb	/^  def current_rotation$/;"	f	class:Piece
+delay	hw6provided.rb	/^  def delay$/;"	f	class:Board
+delete	hw6graphics.rb	/^  def delete$/;"	f	class:TetrisCanvas
+draw	hw6provided.rb	/^  def draw$/;"	f	class:Board.remove_filled
+draw_piece	hw6provided.rb	/^  def draw_piece (piece, old=nil)$/;"	f	class:Board.Tetris
+drop_all_the_way	hw6provided.rb	/^  def drop_all_the_way$/;"	f	class:Board
+drop_by_one	hw6provided.rb	/^  def drop_by_one$/;"	f	class:Piece
+empty_at	hw6provided.rb	/^  def empty_at (point)$/;"	f	class:Board
+exitProgram	hw6graphics.rb	/^def exitProgram$/;"	f
+game_over?	hw6provided.rb	/^  def game_over?$/;"	f	class:Board
+initialize	hw6assignment.rb	/^  def initialize (game)$/;"	f	class:MyBoard
+initialize	hw6graphics.rb	/^  def initialize$/;"	f	class:TetrisCanvas
+initialize	hw6graphics.rb	/^  def initialize$/;"	f	class:TetrisRoot
+initialize	hw6graphics.rb	/^  def initialize$/;"	f	class:TetrisTimer
+initialize	hw6graphics.rb	/^  def initialize(label, color)$/;"	f	class:TetrisButton
+initialize	hw6graphics.rb	/^  def initialize(wrapped_canvas, a, b, c, d, color)$/;"	f	class:TetrisRect
+initialize	hw6graphics.rb	/^  def initialize(wrapped_root, &options)$/;"	f	class:TetrisLabel
+initialize	hw6provided.rb	/^  def initialize (game)$/;"	f	class:Board
+initialize	hw6provided.rb	/^  def initialize (point_array, board)$/;"	f	class:Piece
+initialize	hw6provided.rb	/^  def initialize$/;"	f	class:Board.Tetris
+is_running?	hw6provided.rb	/^  def is_running?$/;"	f	class:Board.Tetris
+key_bindings	hw6assignment.rb	/^  def key_bindings$/;"	f	class:MyTetris
+key_bindings	hw6provided.rb	/^  def key_bindings$/;"	f	class:Board.Tetris
+mainLoop	hw6graphics.rb	/^def mainLoop$/;"	f
+move	hw6graphics.rb	/^  def move(dx, dy)$/;"	f	class:TetrisRect
+move	hw6provided.rb	/^  def move (delta_x, delta_y, delta_rotation)$/;"	f	class:Piece
+move_left	hw6provided.rb	/^  def move_left$/;"	f	class:Board
+move_right	hw6provided.rb	/^  def move_right$/;"	f	class:Board
+moved	hw6provided.rb	/^  def moved$/;"	f	class:Piece
+new_game	hw6provided.rb	/^  def new_game$/;"	f	class:Board.Tetris
+next_piece	hw6assignment.rb	/^  def next_piece$/;"	f	class:MyBoard
+next_piece	hw6assignment.rb	/^  def self.next_piece (board)$/;"	F	class:MyPiece
+next_piece	hw6provided.rb	/^  def next_piece$/;"	f	class:Board
+next_piece	hw6provided.rb	/^  def self.next_piece (board)$/;"	F	class:Piece
+num_columns	hw6provided.rb	/^  def num_columns$/;"	f	class:Board
+num_rows	hw6provided.rb	/^  def num_rows$/;"	f	class:Board
+pause	hw6provided.rb	/^  def pause$/;"	f	class:Board.Tetris
+place	hw6graphics.rb	/^  def place(height, width, x, y)$/;"	f	class:TetrisButton
+place	hw6graphics.rb	/^  def place(height, width, x, y)$/;"	f	class:TetrisCanvas
+place	hw6graphics.rb	/^  def place(height, width, x, y)$/;"	f	class:TetrisLabel
+position	hw6provided.rb	/^  def position$/;"	f	class:Piece
+remove	hw6graphics.rb	/^  def remove$/;"	f	class:TetrisRect
+remove_filled	hw6provided.rb	/^  def remove_filled$/;"	f	class:Board
+rotate_clockwise	hw6provided.rb	/^  def rotate_clockwise$/;"	f	class:Board
+rotate_counter_clockwise	hw6provided.rb	/^  def rotate_counter_clockwise$/;"	f	class:Board
+rotate_oppisite	hw6assignment.rb	/^  def rotate_oppisite$/;"	f	class:MyBoard
+rotations	hw6provided.rb	/^  def self.rotations (point_array)$/;"	F	class:Piece
+run	hw6provided.rb	/^  def run$/;"	f	class:Board
+runMyTetris	hw6runner.rb	/^def runMyTetris$/;"	f
+runTetris	hw6runner.rb	/^def runTetris$/;"	f
+run_game	hw6provided.rb	/^  def run_game$/;"	f	class:Board.Tetris
+score	hw6provided.rb	/^  def score$/;"	f	class:Board
+set_board	hw6assignment.rb	/^  def set_board$/;"	f	class:MyTetris
+set_board	hw6provided.rb	/^  def set_board$/;"	f	class:Board.Tetris
+start	hw6graphics.rb	/^  def start(delay, callback)$/;"	f	class:TetrisTimer
+stop	hw6graphics.rb	/^  def stop$/;"	f	class:TetrisTimer
+store_current	hw6assignment.rb	/^  def store_current$/;"	f	class:MyBoard
+store_current	hw6provided.rb	/^  def store_current$/;"	f	class:Board
+text	hw6graphics.rb	/^  def text(str)$/;"	f	class:TetrisLabel
+unplace	hw6graphics.rb	/^  def unplace$/;"	f	class:TetrisCanvas
+update_score	hw6provided.rb	/^  def update_score$/;"	f	class:Board.Tetris
